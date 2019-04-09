@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <div class="container d-flex p-2 align-items-center" id="foot">
+    <div class="container-fluid d-flex p-2 align-items-center" id="foot">
         <div id="phone">
             <i class="fas fa-phone"></i>
             <span>+380990000000</span>
@@ -20,15 +20,15 @@
             <span>kritzkreiggym@gmail.com</span>
         </div>
         <div id="socialMedia" class="ml-auto">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-google-plus-g"></i>
-            <i class="fab fa-chrome"></i>
-            <i class="fab fa-youtube"></i>
+            <a href="https://www.facebook.com/OfficialTHENX/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/realDonaldTrump?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="https://thenx.com/"><i class="fab fa-chrome"></i></a>
+            <a href="https://www.youtube.com/channel/UCaBqRxHEMomgFU-AkSfodCw"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
 </header>
-<nav class="navbar navbar-expand-lg" id="navi">
+<nav class="navbar  navbar-expand-lg" id="navi">
     <a class="navbar-brand text-dark d-flex p-2 justify-content-center" href="#">KRITZKREIG<br>GYM</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -70,7 +70,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="card-group container">
+<div class="card-group container-fluid">
     <div class="card">
         <div class="card-body justify-content-center">
             <div><i class="fas fa-dumbbell"></i></div>
@@ -107,11 +107,11 @@
         </div>
     </div>
 </div>
-<div class="container d-flex p-2 " id="about">
+<div class="container-fluid row " id="about">
     <div>
-        <img class="ml-0" src="arthur-edelman-745266-unsplash%20(3).jpg" alt="" >
+        <img class="ml-0 col-md-8 col-xs-12" src="arthur-edelman-745266-unsplash%20(3).jpg" alt="" >
     </div>
-    <div><h4 class="d-flex p-2 justify-content-center">Gym Gym</h4>
+    <div class=" col-md-4 col-xs-12"><h4 class="d-flex p-2 justify-content-center">Gym Gym</h4>
     <p class="d-flex p-2 justify-content-center" id="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis turpis at arcu varius feugiat. Aliquam metus turpis, porta id dignissim id, fermentum in lacus. Mauris mollis, velit in ullamcorper gravida, nisl lectus bibendum nisl, tempus luctus elit neque in erat. Ut iaculis ut nibh ut egestas. Nam finibus leo nisi, vitae efficitur quam convallis eu. Pellentesque id placerat lacus, vitae condimentum justo.
        <div class="container">
             <hr>
@@ -124,47 +124,50 @@
 <hr>
 <div class="container-fluid" id="grey">
     <h4 class="d-flex p-2 justify-content-center">Our Gym Gallery</h4>
-    <div class="d-flex p-2">
-        <img src="jesper-aggergaard-539134-unsplas.jpg" width="33.3%" alt="">
-        <img src="scott-webb-22697-unsplash1.jpg" width="33.3%">
-        <img src="danielle-cerullo-782570-unsplash%20(1).jpg" width="33.3%" alt="">
+    <div class="row">
+        <img src="jesper-aggergaard-539134-unsplas.jpg" class="col-xs-12 col-sm-12 col-md-4"  alt="">
+        <img src="scott-webb-22697-unsplash1.jpg "  class="col-xs-12 col-sm-12 col-md-4" >
+        <img src="danielle-cerullo-782570-unsplash%20(1).jpg" class="col-xs-12 col-sm-12 col-md-4" alt="">
     </div>
 </div>
     <hr>
+<div class="d-none d-xs-block d-sm-block">
     <h3 class="d-flex p-2 justify-content-center">Find The Perfect Instructor</h3>
-<div class="container-fluid d-flex p-2 justify-content-between">
-        <div class="card istruct" >
+    <div class=" d-flex p-2 ">
+        <div class="card istruct col-md-3" >
             <img class="card-img-top" src="first-instructor%20(1).jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Loren </h5>
                 <a href="#" class="btn btn-outline-dark">Start your workout</a>
             </div>
         </div>
-    <div class="card istruct" >
+    <div class="card istruct col-md-3" >
         <img class="card-img-top" src="second-instructor.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Colleen</h5>
             <a href="#" class="btn btn-outline-dark">Start your workout</a>
         </div>
     </div>
-    <div class="card istruct" >
+    <div class="card istruct col-md-3" >
         <img class="card-img-top" src="third-instructor.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">John</h5>
             <a href="#" class="btn btn-outline-dark">Start your workout</a>
         </div>
     </div>
-    <div class="card istruct" >
+    <div class="card istruct col-md-3" >
         <img class="card-img-top" src="fourth-instructor.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Asha</h5>
             <a href="#" class="btn btn-outline-dark">Start your workout</a>
         </div>
     </div>
+    </div>
+
 </div>
 <footer class="d-flex p-2 justify-content-between">
     <div>
-        <i class="far fa-copyright"></i> <span> © Copyright 2019. All Rights Reserved.</span> <i class="fas fa-map-marker-alt"></i> <span>Miami, Florida</span>
+        <span> © Copyright 2019. All Rights Reserved.</span> <i class="fas fa-map-marker-alt"></i> <span>Miami, Florida</span>
     </div>
     <div>
         <a href="#"><span>Home</span></a>
